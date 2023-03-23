@@ -1,14 +1,27 @@
+
 # Part 1
 ### a)
-
-
-
+grep 'blas'
+grep 'butt'
+grep 'beed'
+grep -E 'bulb'
+grep 'izard'
+grep 'mander'
+grep 'ivys'
+grep 'meow'
+grep 'jigg'
+grep 'pika'
+grep 'pysd'
+grep 'wart'
+grep 'venu'
+grep 'squi'
 
 ### b)
-
+ls -1 | wc -l
 
 
 ### c)
+find . -type f -print0 | xargs -0 wc -l | sort -nr
 
 
 
